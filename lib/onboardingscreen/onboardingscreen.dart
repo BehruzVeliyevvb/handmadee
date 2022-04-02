@@ -1,6 +1,5 @@
 import 'dart:async';
-
-import 'package:ecommerce/dashboardscreen/dashboardscreen.dart';
+import 'package:ecommerce/loginscreeen/loginscreen.dart';
 import 'package:flutter/material.dart';
 import 'package:delayed_display/delayed_display.dart';
 class OnBoardingScreen extends StatefulWidget {
@@ -43,7 +42,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
   void openLogin() {
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => DashboardScreen()),
+      MaterialPageRoute(builder: (context) => LoginScreen()),
     );
   }
 }
