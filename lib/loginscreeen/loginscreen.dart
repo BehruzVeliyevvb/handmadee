@@ -46,7 +46,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       SizedBox(
                         height: size.height * 0.01,
                       ),
-                      InputStyle(text: 'Email', isPassword: false,),
+                      InputStyle(text: 'Emailww', isPassword: false,),
                       InputStyle(text: 'Password', isPassword: true,),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.end,
