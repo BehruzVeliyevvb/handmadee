@@ -1,7 +1,8 @@
 import 'package:ecommerce/dashboardscreen/dashboardscreen.dart';
+import 'package:ecommerce/loginscreeen/component/footer.dart';
 import 'package:flutter/material.dart';
 
-import 'component/inputstyle.dart';
+import '../Widgets/inputstyle.dart';
 import 'component/logintap.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -18,7 +19,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return Scaffold(
       body: SingleChildScrollView(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.end,
           children: [
             LoginTap(),
 
@@ -46,7 +47,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       SizedBox(
                         height: size.height * 0.01,
                       ),
-                      InputStyle(text: 'Emailww', isPassword: false,),
+                      InputStyle(text: 'Email', isPassword: false,),
                       InputStyle(text: 'Password', isPassword: true,),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.end,
@@ -136,9 +137,13 @@ class _LoginScreenState extends State<LoginScreen> {
                         ],
                       ),
 
-                    ])),
-          ],
 
+                    ])),
+            SizedBox(
+              height: size.height * 0.03,
+            ),
+            Footer(),
+          ],
         ),
       ),
     );
