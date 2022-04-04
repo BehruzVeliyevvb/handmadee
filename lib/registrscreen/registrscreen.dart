@@ -1,3 +1,4 @@
+import 'package:ecommerce/loginscreeen/loginscreen.dart';
 import 'package:flutter/material.dart';
 
 import '../Widgets/inputstyle.dart';
@@ -52,7 +53,7 @@ class RegistrationScreen extends StatelessWidget {
                              Navigator.push(
                                context,
                                MaterialPageRoute(
-                                   builder: (context) => DashboardScreen()),
+                                   builder: (context) => LoginScreen()),
                              );
                            },
                            child: Container(
