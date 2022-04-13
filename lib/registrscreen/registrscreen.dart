@@ -1,3 +1,4 @@
+import 'package:ecommerce/constants.dart';
 import 'package:ecommerce/loginscreeen/loginscreen.dart';
 import 'package:flutter/material.dart';
 
@@ -63,7 +64,7 @@ class RegistrationScreen extends StatelessWidget {
                                borderRadius: BorderRadius.all(
                                  Radius.circular(20),
                                ),
-                               color: Color(0XFF32594F),
+                               color: kPrimaryColor,
                              ),
                              child: Center(
                                child: Text(
