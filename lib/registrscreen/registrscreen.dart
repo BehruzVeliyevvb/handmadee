@@ -29,7 +29,7 @@ class RegistrationScreen extends StatelessWidget {
                          'Welcome!',
                          style: TextStyle(
                              fontSize: 30,
-                             color: Color(0XFF32594F),
+                             color: kPrimaryColor,
                              fontWeight: FontWeight.bold),
                        ),
                        Text(

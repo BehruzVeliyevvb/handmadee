@@ -10,10 +10,12 @@ class Chat extends StatefulWidget {
 class _ChatState extends State<Chat> {
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
+
     return Scaffold(
-      body: Center(
-        child: Text('Chat'),
-      ),
+       body:
+      Container()
+
     );
   }
 }

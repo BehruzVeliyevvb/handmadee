@@ -3,6 +3,7 @@ import 'package:ecommerce/loginscreeen/component/footer.dart';
 import 'package:flutter/material.dart';
 
 import '../Widgets/inputstyle.dart';
+import '../constants.dart';
 import 'component/logintap.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -34,7 +35,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         'Welcome!',
                         style: TextStyle(
                             fontSize: 30,
-                            color: Color(0XFF32594F),
+                            color: kPrimaryColor,
                             fontWeight: FontWeight.bold),
                       ),
                       Text(
@@ -76,7 +77,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               borderRadius: BorderRadius.all(
                                 Radius.circular(20),
                               ),
-                              color: Color(0XFF32594F),
+                              color:kPrimaryColor,
                             ),
                             child: Center(
                               child: Text(

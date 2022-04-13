@@ -1,6 +1,8 @@
 import 'package:ecommerce/registrscreen/registrscreen.dart';
 import 'package:flutter/material.dart';
 
+import '../../constants.dart';
+
 class Footer extends StatelessWidget {
   const Footer({Key? key}) : super(key: key);
 
@@ -16,7 +18,7 @@ class Footer extends StatelessWidget {
               context,
               MaterialPageRoute(builder: (context) => RegistrationScreen()),
             );},
-            child: Text('SignUp',style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold,color: Color(0XFF32594F),),),
+            child: Text('SignUp',style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold,color:kPrimaryColor,),),
 
           )
 
